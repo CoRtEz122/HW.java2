@@ -1,4 +1,4 @@
-package ru.gb;
+package ru.gb.lesson1;
 
 import java.util.Arrays;
 
@@ -34,7 +34,7 @@ public class Homework {
 
     private static boolean isPositive(int x) {
         // проверить, что х положительное
-        return false;
+        return x > 0;
     }
 
     private static void printString(String source, int repeat) {
